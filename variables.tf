@@ -36,3 +36,7 @@ variable "reserved_ip_range" {
   type        = string
   description = "A /29 CIDR block that identifies the range of IP addresses reserved for this instance."
 }
+variable "connect_mode" {
+  type        = string
+  description = "The network connect mode of the Filestore instance."
+}
