@@ -16,6 +16,5 @@ resource "google_filestore_instance" "instance" {
     network           = var.network
     modes             = var.modes
     reserved_ip_range = var.reserved_ip_range
-    connect_mode      = var.connect_mode
   }
 }
